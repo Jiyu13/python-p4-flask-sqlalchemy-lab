@@ -1,0 +1,6 @@
+1. flask db init -> create ./server/instance + ./server/migrations
+2. modify models.py
+3. flask db revision --autogenerate -m "create zookeepers, enclosures, animals table"
+4. flask db upgrade
+5. python seed.py
+
